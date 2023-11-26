@@ -1,8 +1,5 @@
 @charset "UTF-8";
 
-/*
-フェード表示させる要素に使用するためのクラス
-*/
 .fadein {
   opacity: 0;
   transform: translateY(20px);
@@ -243,7 +240,7 @@ section {
 }
 .more {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   position: relative;
   margin: 0 auto;
